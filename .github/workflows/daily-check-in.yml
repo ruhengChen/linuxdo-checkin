@@ -1,9 +1,9 @@
 name: Daily Check-in
 
-on:
-  schedule:
-    - cron: '0 1 * * *'  # 每天0点 UTC 时间执行
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 1 * * *'  # 每天0点 UTC 时间执行
+#   workflow_dispatch:
 
 jobs:
   run_script:
